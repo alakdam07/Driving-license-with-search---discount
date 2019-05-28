@@ -1,0 +1,22 @@
+body{
+    font-family:sans-serif;
+    background-image: linear-gradient(to right top, #e3ceda, #f5c1c5, #fab9a0, #e6bb78, #b4c463, #91c76f, #69c882, #2fc89a, #48c4a6, #60bfae, #78b9b1, #8eb3b1);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 30% 30%;
+   
+}
+
+.add_car, .searchCar{
+    padding: 15px;
+}
+
+input{
+    padding: 5px 0px;
+}
+
+button{
+    padding: 10px;
+}

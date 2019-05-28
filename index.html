@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Car Info</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1 style="text-align: center">Driving Licence</h1>
+ <div class="container">
+   <section class="add_car">
+     <h1 >Add new Car</h1>
+      <section>
+          Licence plate:  <input type="text" id="maker" value=""><br><br>
+          Car Maker: <input type="text" id="plate" value=""><br><br>
+          Car Model: <input type="text" id="model" value=""><br><br>
+          Price:  <input type="text" id="price" value=""><br><br>
+          Color: <input type="color"  id="color" value="">
+          
+        </section> <br><br>
+        <button type="button" onclick="car()"> Check the car info</button>
+        <h1 id="demo"></h1>
+   </section>
+  
+  
+   <section class="searchCar">
+     <h1 >Search for Car</h1>
+      <section >
+          <input type="text" id="search" value="" placeholder="search car"><br><br>
+          Car maker:<h3 id="searchMaker" ></h3>
+          Car model:<h3 id="models" ></h3>
+          <button type="button" onclick="search()"> search</button>
+          <h1 id="not_found"></h1>
+        </section>   
+  </section>
+ 
+  
+ 
+ </div>
+
+ 
+ <script src="script.js">
+</script>
+  </body>
+</html>
