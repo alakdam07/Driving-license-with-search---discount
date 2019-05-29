@@ -9,8 +9,8 @@ var newCar = []; //input car value push in here
 
 function car() {
   var car = new Car(
-    document.getElementById("plate").value,
     document.getElementById("maker").value,
+    document.getElementById("plate").value,
     document.getElementById("model").value,
     document.getElementById("price").value,
     document.getElementById("color").value);
